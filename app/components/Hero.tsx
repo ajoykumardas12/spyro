@@ -18,7 +18,7 @@ function Hero() {
                 priority
             />
             <div className="absolute top-0 left-0 w-full h-full flex items-center p-16 bg-gradient-to-t from-black/20 to-black/20">
-                <div className="w-[55%] flex flex-col gap-6 mt-16">
+                <div className="w-[55%] flex flex-col gap-6 mt-20">
                     <h1 className={`${orbitron.className} text-5xl font-bold tracking-widest leading-[4.2rem]`}>
                         <span 
                             className="text-transparent"
@@ -33,7 +33,7 @@ function Hero() {
                     </button>
                 </div>
             </div>
-            <div className="absolute bottom-0 left-0 w-full h-[15%] bg-gradient-to-b from-gradientColor/5 to-gradientColor">
+            <div className="absolute bottom-0 left-0 w-full h-[20%] bg-gradient-to-b from-primaryBg/5 to-primaryBg">
             </div>
         </div>
     );

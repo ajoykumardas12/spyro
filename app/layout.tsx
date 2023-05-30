@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${outfit.className} relative`}>
+      <body className={`${outfit.className} relative text-white`}>
         <Header />
         {children}
       </body>

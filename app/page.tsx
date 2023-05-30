@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import Hero from './components/Hero'
+import FindYourFit from './components/FindYourFit'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-primaryBg">
       <Hero />
-      <div>asdf</div>
+      <FindYourFit />
     </main>
   )
 }

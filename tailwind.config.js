@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         brand: "#FF4601",
-        gradientColor: "#18171A",
+        primaryBg: "#18171A",
       },
       fontFamily: {
         outfit: ["var(--font-outfit)"],
