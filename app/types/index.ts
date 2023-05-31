@@ -14,3 +14,9 @@ export interface SpyroClass{
     difficulty: string
     noOfStudents: number
 }
+
+export interface InstructorType{
+    name: string
+    imageSrc: string
+    role: string
+}
