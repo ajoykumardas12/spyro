@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header className="absolute z-10 w-full flex justify-between px-16 py-8">
+        <header className="absolute z-10 w-full flex justify-between px-24 py-8">
             <div className="text-3xl font-extrabold text-brand">
                 SPYRO
             </div>
