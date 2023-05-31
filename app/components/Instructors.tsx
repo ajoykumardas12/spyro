@@ -24,8 +24,8 @@ function Instructors() {
 
 function Instructor(instructor : InstructorType){
     return(
-        <div className="w-10/12 flex flex-col items-center rounded-sm">
-            <div className="w-full flex justify-center mb-4 border border-transparent hover:border-brand">
+        <div className="w-10/12 flex flex-col items-center">
+            <div className="w-full flex justify-center mb-4 border border-transparent hover:border-brand rounded-sm">
                 <Image 
                     src={instructor.imageSrc}
                     alt={instructor.name}
