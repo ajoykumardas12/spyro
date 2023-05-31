@@ -4,6 +4,7 @@ import FindYourFit from './components/FindYourFit'
 import Classes from './components/Classes'
 import Instructors from './components/Instructors'
 import DownloadApp from './components/DownloadApp'
+import Video from './components/Video'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Classes />
       <Instructors />
       <DownloadApp />
+      <Video />
     </main>
   )
 }

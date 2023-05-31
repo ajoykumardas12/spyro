@@ -5,6 +5,7 @@ import Image from "next/image";
 function Instructors() {
     return (
         <div className="p-16 relative">
+            <div className="absolute w-full h-5 left-0 top-0 bg-gradient-to-b from-[rgb(24,43,43)] to-primaryBg"></div>
             <div className="flex flex-col items-center gap-10">
                 <h2 className="text-3xl font-semibold">Instructors</h2>
                 <div className="w-full grid grid-cols-4 grid-rows-1 gap-10">

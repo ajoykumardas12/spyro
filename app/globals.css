@@ -11,4 +11,7 @@
     background-image: radial-gradient(ellipse farthest-corner at 10px 10px, rgba(22, 39, 39, 0.902), rgba(11, 48, 48, 0.734) 50%, rgb(20, 46, 46) 50%);
     background-size: 10px 10px;
   }
+  .clipped-triangle{
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+  }
 }
