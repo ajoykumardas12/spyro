@@ -6,7 +6,7 @@
   .clipped-polygon{
     clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
   }
-  .classes-bg{
+  .texture-bg{
     background: rgb(24,43,43);
     background-image: radial-gradient(ellipse farthest-corner at 10px 10px, rgba(22, 39, 39, 0.902), rgba(11, 48, 48, 0.734) 50%, rgb(20, 46, 46) 50%);
     background-size: 10px 10px;

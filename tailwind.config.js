@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         brand: "#FF4601",
         primaryBg: "#18171A",
+        secondaryBg: "#050505",
       },
       fontFamily: {
         outfit: ["var(--font-outfit)"],

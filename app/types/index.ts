@@ -20,3 +20,11 @@ export interface InstructorType{
     imageSrc: string
     role: string
 }
+
+export interface Review{
+    id: number
+    name: string
+    review: string
+    ratings: 0 | 1 | 2 | 3 | 4 | 5
+    imageSrc: string
+}
