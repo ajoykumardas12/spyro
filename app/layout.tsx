@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header'
 import './globals.css'
 import { Orbitron, Outfit } from 'next/font/google'
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={`${outfit.className} relative text-white`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

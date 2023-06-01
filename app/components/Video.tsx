@@ -18,7 +18,7 @@ function Video() {
                     alt="play video"
                     width={100}
                     height={100}
-                    className="absolute z-30 top-1/2 left-[50.4%] -translate-x-1/2 -translate-y-1/2 w-[5.5%] aspect-square"
+                    className="absolute z-30 top-1/2 left-[50.4%] -translate-x-1/2 -translate-y-1/2 w-[5.5%] aspect-square h-auto"
                 />
             </div>
         </div>

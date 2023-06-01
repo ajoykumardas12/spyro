@@ -57,7 +57,7 @@ function Testimonial(review: Review){
     return(
         <div className="slide bg-secondaryBg/50">
             <div className="flex flex-col p-7">
-                <p className="text-sm mb-4">{review.review}</p>
+                <p className="text-sm font-light mb-4">{review.review}</p>
                 <div className="flex gap-2 mb-6">
                     <>{stars}</>
                 </div>

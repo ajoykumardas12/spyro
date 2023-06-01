@@ -13,7 +13,7 @@ function DownloadApp() {
                                 alt="Google Play logo"
                                 width={40}
                                 height={32}
-                                className=""
+                                className="w-auto h-auto"
                             />
                         <div>
                             <div className="text-[0.65rem] font-light">GET IT ON</div>
@@ -26,7 +26,7 @@ function DownloadApp() {
                                 alt="Apple logo"
                                 width={40}
                                 height={32}
-                                className=""
+                                className="w-auto h-auto"
                             />
                         <div>
                             <div className="text-xs font-light">Download on the</div>
