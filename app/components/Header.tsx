@@ -1,3 +1,5 @@
+import BrandButton from "./BrandButton";
+
 function Header() {
     return (
         <header className="absolute z-10 w-full flex justify-between px-24 py-8">
@@ -10,9 +12,9 @@ function Header() {
                 <li>About Us</li>
                 <li>Gallery</li>
             </ul>
-            <button className="bg-brand">
+            <BrandButton>
                 Contact Us
-            </button>
+            </BrandButton>
         </header>
     );
 }
