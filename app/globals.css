@@ -14,4 +14,11 @@
   .clipped-triangle{
     clip-path: polygon(0 0, 50% 50%, 0 100%);
   }
+  .parallelogram{
+    transform: skew(-20deg);
+    background: #FF4601;
+  }
+  .parallelogram > *{
+    transform: skew(20deg);
+  }
 }

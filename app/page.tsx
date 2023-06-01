@@ -5,6 +5,7 @@ import Instructors from './components/Instructors'
 import DownloadApp from './components/DownloadApp'
 import Video from './components/Video'
 import Testimonials from './components/Testimonials'
+import FreeTrial from './components/FreeTrial'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <DownloadApp />
       <Video />
       <Testimonials />
+      <FreeTrial />
     </main>
   )
 }

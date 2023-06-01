@@ -30,7 +30,7 @@ function Testimonials() {
                   slideShadows: false,
                 }}
                 autoplay={{delay: 5000}}
-                speed={5000}
+                speed={2000}
                 // navigation={true}
                 pagination={{clickable: true}}
                 modules={[Pagination, Autoplay]}
