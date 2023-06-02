@@ -7,26 +7,26 @@ function DownloadApp() {
                 <h3 className="text-5xl font-semibold">Download the most loved fitness app</h3>
                 <p className="text-lg">Start your fitness journey with us!</p>
                 <div className="flex items-center gap-6">
-                    <div className="flex gap-1 bg-black px-2 py-1 rounded-lg border-2 border-gray-500">
+                    <div className="flex gap-1 bg-black px-2 py-1 rounded-lg border-2 border-gray-500 cursor-pointer">
                             <Image
                                 src="/icons/icons8-google-play.svg"
                                 alt="Google Play logo"
                                 width={40}
                                 height={32}
-                                className="w-auto h-auto"
+                                className=""
                             />
                         <div>
                             <div className="text-[0.65rem] font-light">GET IT ON</div>
                             <div className="text-[1.3rem] font-medium leading-5">Google Play</div>
                         </div>
                     </div>
-                    <div className="flex gap-1 bg-black px-2 py-1 rounded-lg border-2 border-gray-500">
+                    <div className="flex gap-1 bg-black px-2 py-1 rounded-lg border-2 border-gray-500 cursor-pointer">
                             <Image
                                 src="/icons/icons8-apple-logo.svg"
                                 alt="Apple logo"
                                 width={40}
                                 height={32}
-                                className="w-auto h-auto"
+                                className=""
                             />
                         <div>
                             <div className="text-xs font-light">Download on the</div>

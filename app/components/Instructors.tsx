@@ -1,6 +1,7 @@
 import { instructors } from "../stores/instructors";
 import { InstructorType } from "../types";
 import Image from "next/image";
+import BrandButton from "./BrandButton";
 
 function Instructors() {
     return (
@@ -15,7 +16,9 @@ function Instructors() {
                         )
                     })}
                 </div>
-                <button className="bg-brand">All instructors</button>
+                <BrandButton>
+                    All instructors
+                </BrandButton>
             </div>
             <div className="absolute w-3/12 h-12 bg-brand/10 bottom-[34%] left-0"></div>
             <div className="absolute w-7/12 h-12 bg-brand/10 bottom-[24%] left-0"></div>

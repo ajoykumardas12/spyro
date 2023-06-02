@@ -6,7 +6,7 @@ export const spyroClasses: SpyroClass[] = [
         imageSrc: "/images/strength-and-sweat.jpg",
         category: "Gym",
         duration: 2,
-        instructor: "Esther Howard",
+        instructor: "Cameron Williamson",
         noOfClasses: 30,
         difficulty: "Beginner",
         noOfStudents: 29

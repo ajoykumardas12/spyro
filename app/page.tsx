@@ -9,7 +9,7 @@ import FreeTrial from './components/FreeTrial'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-primaryBg">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-primaryBg overflow-x-hidden">
       <Hero />
       <FindYourFit />
       <Classes />

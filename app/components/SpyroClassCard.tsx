@@ -3,7 +3,7 @@ import { SpyroClass } from "../types";
 
 function SpyroClassesCard(spyroClass: SpyroClass){
     return (
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 py-4 cursor-pointer hover:bg-primaryBg/50 rounded-md">
             <div className="relative w-11/12 flex justify-center ">
                 <Image 
                     src={spyroClass.imageSrc}
@@ -63,7 +63,7 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                     <Dot color="white" />
                     <div>Difficulty: {spyroClass.difficulty}</div>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between px-2">
                     <button className="bg-gradient-to-r from-brand/90 to-brand parallelogram px-3 py-2 ml-2 text-sm hover:from-brand hover:to-brand">
                         <div>
                             Learn more

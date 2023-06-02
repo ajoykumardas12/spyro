@@ -3,6 +3,34 @@
 @tailwind utilities;
 
 @layer utilities{
+  html,body{
+    overflow-x: hidden;
+  }
+  .hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  .hamburger-menu > div{
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #FF4601;
+    border-radius: 0.2rem;
+    transition: all 0.5s;
+  }
+  .hamburger-open > div:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger-open > div:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: left;
+  }
+  .hamburger-open > div:nth-child(3){
+    transform: rotate(-45deg);
+    transform-origin: left;
+  }
   .clipped-polygon{
     clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
   }

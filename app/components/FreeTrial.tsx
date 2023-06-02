@@ -7,7 +7,7 @@ function FreeTrial() {
                         Are you ready to change?
                     </h3>
                     <p className="text-sm">
-                        Challenge your strength. Stretch your body. Breathe easy. Our team of world-class instructors will empower
+                        Challenge your strength. Stretch your body. Breathe easy. Our team of world-class instructors will empower you on the journey.
                     </p>
                 </div>
                 <button className="nested-parallelogram px-8 py-2 border-[2px] border-white mr-2">

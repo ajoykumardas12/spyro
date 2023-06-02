@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         outfit: ["var(--font-outfit)"],
         orbitron: ["var(--font-orbitron)"],
+      },
+      screens: {
+        xs: "460px",
       }
     },
   },
