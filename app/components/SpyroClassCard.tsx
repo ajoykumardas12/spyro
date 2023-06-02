@@ -63,7 +63,7 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                     <Dot color="white" />
                     <div>Difficulty: {spyroClass.difficulty}</div>
                 </div>
-                <div className="flex justify-between px-2">
+                <div className="flex justify-between gap-2 px-2">
                     <button className="bg-gradient-to-r from-brand/90 to-brand parallelogram px-3 py-2 ml-2 text-sm hover:from-brand hover:to-brand">
                         <div>
                             Learn more
