@@ -7,8 +7,8 @@ function FindYourFit() {
     return (
         <div className="relative">
             <div className="px-12 sm:px-16">
-                <div className="my-20">
-                    <h2 className="text-center text-3xl font-semibold mb-10">Find what moves you</h2>
+                <div className="mt-10 xs:mt-12 mb-16">
+                    <h2 className="text-center text-2xl xs:text-3xl font-semibold mb-10">Find what moves you</h2>
                     <div className="flex flex-col md:flex-row gap-10">
                         {categories.map((category: Category) => {
                             return(

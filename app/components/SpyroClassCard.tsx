@@ -17,7 +17,7 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                 <div className="absolute w-8 h-4 bg-brand bottom-[22%] -left-[1.1%] rounded-ss-lg"></div>
             </div>
             <div className="w-[93%]">
-                <div className="flex justify-between mb-3">
+                <div className="flex justify-between mb-3 text-sm font-light text-white/60">
                     <div className="flex items-center gap-1">
                         <Dot color="brand" />
                         <div>
@@ -28,8 +28,8 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                         <Image 
                             src="/icons/users.svg"
                             alt="students icon"
-                            width={20}
-                            height={20}
+                            width={16}
+                            height={16}
                             className=""
                         />
                         <div>
@@ -38,28 +38,28 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                     </div>
                 </div>
                 <div className="flex justify-between mb-3">
-                    <h3 className="text-2xl">
+                    <h3 className="text-xl">
                         {spyroClass.name}
                     </h3>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 text-sm">
                         <Image 
                             src="/icons/timer.svg"
                             alt="timer icon"
-                            width={20}
-                            height={20}
+                            width={18}
+                            height={18}
                             className=""
                         />
                         <div>{spyroClass.duration} H</div>
                     </div>
                 </div>
-                <div className="mb-2">
+                <div className="mb-2 font-light">
                     Instructor: {spyroClass.instructor}
                 </div>
-                <div className="flex items-center gap-2 mb-1">
+                <div className="flex items-center gap-2 text-sm text-white/80 font-light mb-1">
                     <Dot color="white" />
                     <div>No. of Classes: {spyroClass.noOfClasses}</div>
                 </div>
-                <div className="flex items-center gap-2 mb-4">
+                <div className="flex items-center gap-2 text-sm text-white/80 font-light mb-4">
                     <Dot color="white" />
                     <div>Difficulty: {spyroClass.difficulty}</div>
                 </div>
@@ -86,7 +86,7 @@ interface DotProps{
 
 function Dot({ color }: DotProps) {
     if(color === "white"){
-        return <div className="w-2 h-2 rounded-full bg-white"></div>;
+        return <div className="w-2 h-2 rounded-full bg-white/80"></div>;
     }else if( color === "brand"){
         return <div className="w-2 h-2 rounded-full bg-brand"></div>;
     }

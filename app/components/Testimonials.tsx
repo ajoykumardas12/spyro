@@ -14,7 +14,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
 function Testimonials() {
     return (
         <div className="w-full flex flex-col items-center px-16 py-10 xs:py-12 texture-bg overflow-hidden">
-            <h2 className="text-3xl font-semibold mb-10">Testimonials</h2>
+            <h2 className="text-2xl xs:text-3xl font-semibold mb-10">Testimonials</h2>
             <div>
             <Swiper
                 effect={"coverflow"}

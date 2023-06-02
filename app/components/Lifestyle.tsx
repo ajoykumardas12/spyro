@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function Lifestyle() {
     return (
-        <div className="flex flex-col items-center gap-8 mb-16">
-            <h2 className="text-3xl font-semibold text-center">
+        <div className="flex flex-col items-center gap-6 xs:gap-8 mb-16">
+            <h2 className="text-2xl xs:text-3xl font-semibold text-center">
                 Fit for your lifestyle
             </h2>
             <p className="w-full xs:w-10/12 md:w-7/12 lg:w-6/12 text-center text-white/75">
