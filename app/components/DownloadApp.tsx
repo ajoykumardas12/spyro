@@ -3,8 +3,8 @@ import Image from "next/image";
 function DownloadApp() {
     return (
         <div className="w-full flex flex-col md:flex-row items-center px-12 lg:px-16 py-6 bg-brand">
-            <div className="w-full md:w-6/12 flex flex-col gap-6 md:gap-10">
-                <h3 className="text-3xl xs:text-4xl md:text-5xl font-semibold">Download the most loved fitness app</h3>
+            <div className="w-full md:w-6/12 flex flex-col gap-4 xs:gap-6 md:gap-10">
+                <h3 className="text-2xl xs:text-4xl md:text-5xl font-semibold">Download the most loved fitness app</h3>
                 <p className="text-lg">Start your fitness journey with us!</p>
                 <div className="grid auto-cols-max xs:auto-rows-max grid-flow-row xs:grid-flow-col gap-3 xs:gap-6">
                     <div className="flex gap-1 bg-black px-2 py-1 rounded-lg border-2 border-gray-500 cursor-pointer">

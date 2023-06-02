@@ -8,12 +8,12 @@ function Footer() {
             className="bg-no-repeat bg-[length:100%_100%]"
             style={{backgroundImage: "url('/images/footer-bg.png')"}}
         >
-            <div className="px-20 pt-10 pb-4 flex flex-col items-center bg-gradient-to-r from-primaryBg/20 to-primaryBg/20">
-                <h2 className="text-3xl font-semibold text-brand mb-6">SPYRO</h2>
-                <p className="w-7/12 text-base font-light text-center text-white/80 mb-6">
+            <div className="px-6 xs:px-10 sm:px-14 md:px-16 lg:px-20 pt-6 xs:pt-10 pb-4 flex flex-col items-center bg-gradient-to-r from-primaryBg/20 to-primaryBg/20">
+                <h2 className="text-3xl font-semibold text-brand mb-4 xs:mb-6">SPYRO</h2>
+                <p className="w-full xs:w-11/12 sm:w-10/12 md:8/12 lg:w-7/12 text-xs xs:text-sm lg:text-base font-light text-center text-white/80 mb-4 xs:mb-6">
                     Join us today and experience the transformative power of our fitness classes. Don&apos;t wait to start your fitness journey. Take the first step towards a healthier, stronger you. Let&apos;s sweat, have fun, and make fitness a way of life together!
                 </p>
-                <div className="flex items-center gap-2 mb-6">
+                <div className="flex items-center gap-2 mb-4 xs:mb-6">
                     <FooterSocial src={"/icons/facebook.png"} />
                     <FooterSocial src={"/icons/twitter.svg"} />
                     <FooterSocial src={"/icons/instagram.png"} />
