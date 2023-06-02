@@ -11,8 +11,8 @@ function Header() {
         setIsHamburgerOpen((prevValue) => {
             return !prevValue;
         })        
-    }
-
+    }    
+    
     const {width, height} = useWindowSize();
 
     useEffect(() => {
@@ -43,7 +43,7 @@ function Header() {
                 <div></div>
                 <div></div>
             </div>
-            <div className={`absolute p-10 bg-brand top-[100%] right-0 rounded-l-md ${ !isHamburgerOpen && "translate-x-[100%]"} transition duration-300`}>
+            <div className={`absolute p-10 bg-brand top-[100%] right-0 rounded-l-md ${ !isHamburgerOpen && "translate-x-[100%] hidden"} transition duration-300`}>
                 <ul className="flex flex-col items-center gap-8">
                     <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>Classes</li>
                     <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>Instructors</li>
@@ -59,5 +59,6 @@ function Header() {
         </header>
     );
 }
+
 
 export default Header;
