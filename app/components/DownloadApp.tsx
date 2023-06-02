@@ -48,14 +48,14 @@ function DownloadApp() {
                     alt="app mockup"
                     width={160}
                     height={300}
-                    className="absolute top-3/4 left-1/4 -translate-x-1/4 -translate-y-3/4"
+                    className="absolute hidden min-[420px]:block top-3/4 left-1/4 -translate-x-1/4 -translate-y-3/4"
                 />
                 <Image 
                     src="/images/iPhone-13-mockup.png"
                     alt="app mockup"
                     width={160}
                     height={300}
-                    className="absolute top-3/4 left-3/4 -translate-x-3/4 -translate-y-3/4"
+                    className="absolute hidden min-[420px]:block top-3/4 left-3/4 -translate-x-3/4 -translate-y-3/4"
                 />
             </div>
         </div>

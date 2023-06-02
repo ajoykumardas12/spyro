@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function Video() {
     return (
-        <div className="w-full p-16 flex items-center justify-center">
-            <div className="relative w-9/12 bg-gradient-to-t from-black/20 to-black/20 cursor-pointer">
+        <div className="w-full p-6 xs:p-10 sm:p-12 md:p-14 lg:p-16 flex items-center justify-center">
+            <div className="relative w-full sm:w-10/12 lg:w-9/12 bg-gradient-to-t from-black/20 to-black/20 cursor-pointer">
                 <Image 
                     src="/images/video-preview.png"
                     alt="video preview"
