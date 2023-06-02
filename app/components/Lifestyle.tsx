@@ -3,13 +3,13 @@ import Image from "next/image";
 function Lifestyle() {
     return (
         <div className="flex flex-col items-center gap-8 mb-16">
-            <h2 className="text-3xl font-semibold">
+            <h2 className="text-3xl font-semibold text-center">
                 Fit for your lifestyle
             </h2>
-            <p className="w-6/12 text-center text-white/75">
+            <p className="w-full xs:w-10/12 md:w-7/12 lg:w-6/12 text-center text-white/75">
                 Wake up with a sunrise meditation, sweat it out with lunchtime HIIT, or unwind with an evening flow. You’ll find movement for every mood with classes sorted by time, style, and skill level.
             </p>
-            <div className="relative w-[40%] flex justify-center ">
+            <div className="relative w-full xs:w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] flex justify-center ">
                 <Image 
                     src="/images/lifestyle-image.png"
                     alt="lifestyle image"
