@@ -9,6 +9,29 @@
   html{
     scroll-behavior: smooth;
   }
+  .navlink{
+    display: inline-block;
+    position: relative;
+  }
+  .navlink:hover{
+    color: #FF4601;
+  }
+  .navlink::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 10%;
+    background-color: #FF4601;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .navlink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
   .hamburger-menu{
     display: flex;
     flex-direction: column;

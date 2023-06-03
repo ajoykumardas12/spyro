@@ -28,14 +28,14 @@ function Header() {
                 SPYRO
             </Link>
             <ul className="hidden md:flex items-center gap-8">
-                <li>
+                <li className=" navlink">
                     <a href="#classes">Classes</a>
                 </li>
-                <li>
+                <li className=" navlink">
                     <a href="#instructors">Instructors</a>
                 </li>
-                <li className="cursor-pointer">About Us</li>
-                <li className="cursor-pointer">Gallery</li>
+                <li className="cursor-pointer navlink">About Us</li>
+                <li className="cursor-pointer navlink">Gallery</li>
             </ul>
             <div className="hidden md:flex items-center z-60">
                 <BrandButton>
