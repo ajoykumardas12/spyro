@@ -13,7 +13,7 @@ function Header() {
         })        
     }    
     
-    const {width, height} = useWindowSize();
+    const {width} = useWindowSize();
 
     useEffect(() => {
         if(width > 767){
@@ -28,8 +28,12 @@ function Header() {
                 SPYRO
             </Link>
             <ul className="hidden md:flex items-center gap-8">
-                <li className="cursor-pointer">Classes</li>
-                <li className="cursor-pointer">Instructors</li>
+                <li>
+                    <a href="#classes">Classes</a>
+                </li>
+                <li>
+                    <a href="#instructors">Instructors</a>
+                </li>
                 <li className="cursor-pointer">About Us</li>
                 <li className="cursor-pointer">Gallery</li>
             </ul>
@@ -45,8 +49,12 @@ function Header() {
             </div>
             <div className={`absolute p-10 bg-brand top-[100%] right-0 rounded-l-md ${ !isHamburgerOpen && "translate-x-[100%]"} transition duration-300`}>
                 <ul className="flex flex-col items-center gap-8">
-                    <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>Classes</li>
-                    <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>Instructors</li>
+                    <li>
+                        <a href="#classes" onClick={toggleIsHamburgerOpen}>Classes</a>
+                    </li>
+                    <li>
+                        <a href="#instructors" onClick={toggleIsHamburgerOpen}>Instructors</a>
+                    </li>
                     <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>About Us</li>
                     <li className="cursor-pointer" onClick={toggleIsHamburgerOpen}>Gallery</li>
                     <div onClick={toggleIsHamburgerOpen}>

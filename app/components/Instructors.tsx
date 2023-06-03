@@ -5,7 +5,7 @@ import BrandButton from "./BrandButton";
 
 function Instructors() {
     return (
-        <div className="py-16 px-12 sm:px-16 relative">
+        <div className="py-16 px-12 sm:px-16 relative" id="instructors">
             <div className="absolute w-full h-5 left-0 top-0 bg-gradient-to-b from-[rgb(24,43,43)] to-primaryBg"></div>
             <div className="flex flex-col items-center gap-10">
                 <h2 className="text-2xl xs:text-3xl font-semibold">Instructors</h2>

@@ -5,7 +5,7 @@ import SpyroClassesCard from "./SpyroClassCard";
 
 function Classes() {
     return (
-        <div className="relative w-full px-6 xs:px-8 sm:px-12 lg:px-16 py-10 texture-bg flex flex-col items-center gap-10">
+        <div className="relative w-full px-6 xs:px-8 sm:px-12 lg:px-16 py-10 texture-bg flex flex-col items-center gap-10" id="classes">
             <h2 className="text-2xl xs:text-3xl lg:text-4xl">Classes</h2>
             <div className="flex flex-col lg:flex-row gap-8 mb-2">
                 {

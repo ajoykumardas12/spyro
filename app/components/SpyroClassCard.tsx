@@ -14,7 +14,7 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                 />
                 <div className="absolute w-[102.4%] h-[40%] -bottom-[1.75%] clipped-polygon bg-brand rounded-lg"></div>
                 <div className="absolute w-4 h-4 bg-[rgba(22, 39, 39, 0.902)] bottom-[21%] -left-[1.2%]"></div>
-                <div className="absolute w-8 h-4 bg-brand bottom-[22%] -left-[1.1%] rounded-ss-lg"></div>
+                <div className="absolute w-16 h-4 bg-brand bottom-[22%] -left-[1.1%] rounded-ss-lg"></div>
             </div>
             <div className="w-[93%]">
                 <div className="flex justify-between mb-3 text-sm font-light text-white/60">

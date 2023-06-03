@@ -6,6 +6,9 @@
   html,body{
     overflow-x: hidden;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   .hamburger-menu{
     display: flex;
     flex-direction: column;
