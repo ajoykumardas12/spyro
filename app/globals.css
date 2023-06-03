@@ -39,9 +39,17 @@
   }
   .brand-button{
     clip-path: polygon(0 0, 100% 0, 94% 100%, 0% 100%);
+    transition: 0.3s ease;
   }
   .brand-button > div{
     clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+    transition: 0.3s ease;
+  }
+  .brand-button:hover{
+    clip-path: polygon(6% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .brand-button:hover > div{
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0% 100%);
   }
   .texture-bg{
     background: rgb(24,43,43);

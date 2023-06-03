@@ -64,12 +64,12 @@ function SpyroClassesCard(spyroClass: SpyroClass){
                     <div>Difficulty: {spyroClass.difficulty}</div>
                 </div>
                 <div className="flex justify-between gap-2 px-2">
-                    <button className="bg-gradient-to-r from-brand/90 to-brand parallelogram px-3 py-2 ml-2 text-sm hover:from-brand hover:to-brand">
+                    <button className="bg-gradient-to-r from-brand/90 to-brand parallelogram px-3 py-2 ml-2 text-sm border border-brand hover:bg-gradient-to-r hover:from-white/10 hover:to-transparent hover:text-brand transition-all duration-300">
                         <div>
                             Learn more
                         </div>
                     </button>
-                    <button className="parallelogram px-4 py-2 text-sm border border-white mr-2">
+                    <button className="parallelogram px-4 py-2 text-sm border border-white hover:border-brand hover:text-brand transition-all duration-300 mr-2">
                         <div>
                             Start a free trial
                         </div>
